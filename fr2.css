@@ -1,0 +1,25 @@
+body {
+    background-color: #FBF9EF;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    color: #c26e1d;
+  }
+  
+  thead{
+    background-color: #28036a;
+    border-bottom: solid 5px #0F362D;
+    color: white;
+  }
+  
+  tr:nth-child(even){
+    background-color: #BFDAFF;
+  }
+  
+  tr:hover td{
+    background-color: #369681;
+    color: white;
+  }
+  .foto{
+    position: absolute; /* Posiciona la imagen de manera absoluta respecto al contenedor más cercano con posición relativa o respecto al borde de la página */
+    top: 0; /* 0 píxeles desde la parte superior de la página */
+    right: 0; /* 0 píxeles desde el borde derecho de la página */
+}
