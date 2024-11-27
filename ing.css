@@ -21,8 +21,3 @@ body {
     color: white;
   }
   
-.foto{
-    position: absolute; /* Posiciona la imagen de manera absoluta respecto al contenedor más cercano con posición relativa o respecto al borde de la página */
-    top: 10; /* 0 píxeles desde la parte superior de la página */
-    right: 10; /* 0 píxeles desde el borde derecho de la página */
-}
