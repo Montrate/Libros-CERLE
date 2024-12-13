@@ -50,10 +50,10 @@ body {
     }        
 }   
 
-@media (max-width: 725px) {
+@media (max-width: 800px) {
     .foto {
         content: url("imagen_cerle.png")
-        width="20%"
-        height="30%"
+        width="400px"
+        height="300px"
     }
 }
