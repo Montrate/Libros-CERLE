@@ -36,5 +36,9 @@ body {
         width="450px";
         frameborder="0"; 
 }
+    h3{
+        font-size: 60px;
+        text-align: center;
+        }
 }   
 
