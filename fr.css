@@ -20,13 +20,14 @@ body {
     background-color: #369681;
     color: white;
   }
-
-.main-container {
+@media screen and (max-width: 720px) {
+   .main-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
     margin-top: 20px;
+}
 }
 
