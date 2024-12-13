@@ -53,5 +53,7 @@ body {
 @media (max-width: 725px) {
     .foto {
         content: url("imagen_cerle.png")
+        width="400px"
+        height="300px"
     }
 }
