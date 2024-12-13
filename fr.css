@@ -19,7 +19,7 @@ body {
     color: white;
   }
 .foto{
-    position: absolute;
+    position: relative;
     top: 0;
     right: 0;
 }
