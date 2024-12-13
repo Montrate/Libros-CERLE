@@ -2,6 +2,9 @@ body {
     background-color: #FBF9EF;
     font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
     color: #c26e1d;
+   text-align: center;
+    padding: 20px;
+    
   }
   
   thead{
@@ -19,7 +22,15 @@ body {
     color: white;
   }
 .foto{
-    position: absolute;
-    top: 0;
-    right: 0;
+   max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
 }
