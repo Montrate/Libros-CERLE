@@ -34,6 +34,7 @@ body {
         align-items: center;
         height="200px";
         width="450px";
+        frameborder="0"; 
 }
 }   
 
