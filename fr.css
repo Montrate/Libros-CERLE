@@ -21,7 +21,7 @@ body {
     color: white;
   }
 @media (max-width: 720px) {
-   .main-container {
+   #main-container {
     display: flex;
     justify-content: center;
     align-items: center;
