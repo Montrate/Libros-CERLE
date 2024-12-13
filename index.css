@@ -13,8 +13,12 @@ h1 {
 .contenedor{
    display: flex;
    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
   
 }
 .button {
   border-radius: 10px;
+    width: 100%;
+    height: auto;
 }
