@@ -32,7 +32,7 @@ body {
     .iframe{
         justify-content: center;
         align-items: center;
-        height="200px";
+        height="300px";
         width="450px";
         frameborder="0"; 
 }
