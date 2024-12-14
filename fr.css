@@ -32,9 +32,10 @@ body {
     .iframe{
         justify-content: center;
         align-items: center;
-        height:"300px";
-        width:"600px";
-        frameborder:"0"; 
+        height:300px;
+        width:600px;
+        frameborder:0; 
+        overflox-x: auto;
 }
     h3{
         font-size: 40px;
@@ -44,9 +45,9 @@ body {
     color: #608BC1;
         }
     .foto{
-        height="600px" 
-        width="450px"
-        padding="70px"
+        height:300px;
+        width:450px;
+        padding:70px;
     }        
 }   
 
