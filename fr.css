@@ -1,6 +1,6 @@
 body {
    background-color: #F3F3E0;
-   font-family: "Taviraj", serif;
+   font-family: "Overpass", serif;
    font-weight: 500;
    font-style: normal;
    color: #608BC1;
@@ -44,7 +44,7 @@ body {
         font-size: 20px;
         text-align: center;
           background-color: #F3F3E0;
-    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    font-family: "Overpass", sans-serif;
     color: #608BC1;
         }
     .foto {
