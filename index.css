@@ -17,12 +17,12 @@ h1 {
   }
 
 .contenedor{
-   display: flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center; 
-    align-content: center;
-    gap: 20px;
+    align-items: center;
+    gap: 5px;
   
 }
 .button {
