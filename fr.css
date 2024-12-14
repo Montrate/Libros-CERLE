@@ -52,8 +52,10 @@ body {
 
 @media (max-width: 725px) {
     .foto {
-        content: url("imagen_cerle.png");
-        width="400px";
-        height="300px";
+        /* Cambia la imagen solo si el tamaño de la pantalla es menor a 725px */
+        content: url("imagen_cerle.png"); /* Elimina el contenido antiguo */
+        width: 400px;
+        height: 300px;
+        padding: 20px; /* Ajusta el padding si es necesario */
     }
 }
