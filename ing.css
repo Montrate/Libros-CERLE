@@ -1,6 +1,6 @@
 body {
     background-color: #F7DCB9;
-    font-family: "Taviraj", serif;
+    font-family: "Overpass", serif;
     font-weight: 500;
     font-style: normal;
     color: #914F1E;
@@ -44,17 +44,17 @@ body {
         overflow-x: auto;
 }
     h3{
-        font-size: 40px;
+        font-size: 20px;
         text-align: center;
           background-color: #F7DCB9;
-    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    font-family: "Overpass", sans-serif;
     color: #914F1E;
         }
     .foto {
         /* Cambia la imagen solo si el tamaño de la pantalla es menor a 725px */
         content: url("imagen_cerle.png"); /* Elimina el contenido antiguo */
-        width: 500px;
-        height: 400px;
+        width: 200px;
+        height: 250px;
         padding: 0;
         margin: 20px 0;/* Ajusta el padding si es necesario */
     }     
