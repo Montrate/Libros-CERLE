@@ -10,15 +10,11 @@ h1 {
     display: flex;
     justify-content: center; 
     background-color: #B9E5E8;
-    margin-top: 20px;
+    text-align: center;
   }
 
   body {
     background-color: #DFF2EB
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    
   }
 
 .contenedor{
