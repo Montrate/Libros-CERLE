@@ -35,7 +35,7 @@ body {
         height:300px;
         width:600px;
         frameborder:0; 
-        overflox-x: auto;
+        overflow-x: auto;
 }
     h3{
         font-size: 40px;
