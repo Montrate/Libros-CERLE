@@ -8,7 +8,7 @@ h1 {
       "CRSV" 0,
       "SHRP" 0;
     display: flex;
-    flex-direction: column;
+    justify-content: center; 
     background-color: #B9E5E8;
     text-align: center;
   }
@@ -20,6 +20,7 @@ h1 {
 .contenedor{
    display: flex;
    justify-content: center;
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
   
