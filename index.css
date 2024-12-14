@@ -45,11 +45,8 @@ h1 {
 
 @media (max-width: 725px) {
     #contenedor {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
+      flex-direction: column;
         gap: 20px;
-        margin-top: 20px;
+        
     }
 }
