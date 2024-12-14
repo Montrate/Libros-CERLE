@@ -44,7 +44,7 @@ h1 {
 }
 
 @media (max-width: 725px) {
-    #contenedor {
+    .contenedor {
       flex-direction: column;
         gap: 20px;
         
