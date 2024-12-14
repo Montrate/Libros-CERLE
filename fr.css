@@ -50,8 +50,8 @@ body {
     .foto {
         /* Cambia la imagen solo si el tamaño de la pantalla es menor a 725px */
         content: url("imagen_cerle.png"); /* Elimina el contenido antiguo */
-        width: 500px;
-        height: 400px;
+        width: 350px;
+        height: 250px;
         padding: 0;
         margin: 20px 0;/* Ajusta el padding si es necesario */
     }     
