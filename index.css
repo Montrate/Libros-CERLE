@@ -42,3 +42,14 @@ h1 {
     height: auto;
 
 }
+
+@media (max-width: 725px) {
+    #contenedor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 20px;
+    }
+}
