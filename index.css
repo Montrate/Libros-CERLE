@@ -18,9 +18,9 @@ h1 {
 
 .contenedor{
    display: flex;
-   justify-content: center;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    justify-content: center; 
     gap: 20px;
   
 }
