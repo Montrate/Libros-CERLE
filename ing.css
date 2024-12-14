@@ -44,9 +44,9 @@ body {
     h3{
         font-size: 40px;
         text-align: center;
-          background-color: #F3F3E0;
+          background-color: #F7DCB9;
     font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
-    color: #608BC1;
+    color: #914F1E;
         }
     .foto {
         /* Cambia la imagen solo si el tamaño de la pantalla es menor a 725px */
