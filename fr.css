@@ -20,7 +20,7 @@ body {
     background-color: #369681;
     color: white;
   }
-@media (max-width: 720px) {
+@media (max-width: 725px) {
    #main-container {
     display: flex;
     justify-content: center;
@@ -43,19 +43,12 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
     color: #608BC1;
         }
-    .foto{
-        height:300px;
-        width:450px;
-        padding:70px;
-    }        
-}   
-
-@media (max-width: 725px) {
     .foto {
         /* Cambia la imagen solo si el tamaño de la pantalla es menor a 725px */
         content: url("imagen_cerle.png"); /* Elimina el contenido antiguo */
         width: 500px;
         height: 400px;
         padding: 20px; /* Ajusta el padding si es necesario */
-    }
-}
+    }     
+}   
+
