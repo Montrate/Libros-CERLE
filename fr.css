@@ -33,9 +33,10 @@ body {
         justify-content: center;
         align-items: center;
         height:300px;
-        width:1000px;
+        width:100%;
         frameborder:0; 
         padding: 20px;
+        overflow-x: auto;
 }
     h3{
         font-size: 40px;
@@ -49,7 +50,8 @@ body {
         content: url("imagen_cerle.png"); /* Elimina el contenido antiguo */
         width: 500px;
         height: 400px;
-        padding: 20px; /* Ajusta el padding si es necesario */
+        padding: 0;
+        margin: 20px 0;/* Ajusta el padding si es necesario */
     }     
 }   
 
