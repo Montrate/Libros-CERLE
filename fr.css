@@ -7,7 +7,10 @@ body {
    text-align: center;
     
   }
-  
+  foto {
+     border-radius: 15px;
+  }
+
   thead{
     background-color: #28036a;
     border-bottom: solid 5px #0F362D;
