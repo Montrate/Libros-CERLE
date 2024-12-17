@@ -1,9 +1,9 @@
 body {
-    background-color: #F7DCB9;
+    background-color: #FAF1E4;
     font-family: "Overpass", serif;
     font-weight: 500;
     font-style: normal;
-    color: #914F1E;
+    color: #9EB384;
     text-align: center;
   }
   
@@ -46,9 +46,9 @@ body {
     h3{
         font-size: 20px;
         text-align: center;
-          background-color: #F7DCB9;
+          background-color: #FAF1E4;
     font-family: "Overpass", sans-serif;
-    color: #914F1E;
+    color: #9EB384;
         }
     .foto img {
         /* Cambia la imagen solo si el tamaño de la pantalla es menor a 725px */
