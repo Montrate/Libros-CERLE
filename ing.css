@@ -50,7 +50,7 @@ body {
     font-family: "Overpass", sans-serif;
     color: #914F1E;
         }
-    .foto {
+    .foto img {
         /* Cambia la imagen solo si el tamaño de la pantalla es menor a 725px */
         content: url("imagenmov.png"); /* Elimina el contenido antiguo */
         width: 200px;
