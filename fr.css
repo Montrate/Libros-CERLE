@@ -47,7 +47,7 @@ body {
     font-family: "Overpass", sans-serif;
     color: #608BC1;
         }
-    .foto {
+    .foto  img {
         /* Cambia la imagen solo si el tamaño de la pantalla es menor a 725px */
         content: url("consultas.png"); /* Elimina el contenido antiguo */
         width: 200px;
