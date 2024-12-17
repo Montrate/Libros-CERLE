@@ -57,5 +57,6 @@ body {
         height: 250px;
         padding: 0;
         margin: 20px 0;/* Ajusta el padding si es necesario */
+        border-radius: 15px;
     }     
 }   
