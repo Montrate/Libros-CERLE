@@ -49,7 +49,7 @@ body {
         }
     .foto  img {
         /* Cambia la imagen solo si el tamaño de la pantalla es menor a 725px */
-        content: url("consultas.png"); /* Elimina el contenido antiguo */
+        content: url("imagenmov.png"); /* Elimina el contenido antiguo */
         width: 200px;
         height: 250px;
         padding: 0;
