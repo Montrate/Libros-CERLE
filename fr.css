@@ -50,10 +50,11 @@ body {
     .foto  img {
         /* Cambia la imagen solo si el tamaño de la pantalla es menor a 725px */
         content: url("imagenmov.png"); /* Elimina el contenido antiguo */
-        width: 200px;
-        height: 250px;
+        width: 250px;
+        height: 300px;
         padding: 0;
         margin: 20px 0;/* Ajusta el padding si es necesario */
+        border-radius: 15px;
     }     
 }   
 
