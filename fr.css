@@ -25,7 +25,7 @@ body {
     background-color: #369681;
     color: white;
   }
-@media (max-width: 725px) {
+@media (max-width: 750px) {
    #main-container {
     display: flex;
     justify-content: center;
