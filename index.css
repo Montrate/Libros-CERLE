@@ -79,6 +79,7 @@ h1 {
   font-family: 'Geologica', sans-serif;
   font-weight: bold;
   font-size: 20px;
+  padding: 15px;
   opacity: 0; /* Invisible */
   transition: all 0.6 ease-in-out;
 }
