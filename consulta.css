@@ -1,4 +1,4 @@
-.body {
+body {
    background-color: #F3F3E0;
    font-family: "Overpass", serif;
    font-weight: 500;
@@ -43,7 +43,7 @@
         padding: 20px;
         overflow-x: auto;
 }
-    .h3{
+    h3{
         font-size: 20px;
         text-align: center;
           background-color: #F3F3E0;
