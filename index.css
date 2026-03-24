@@ -87,15 +87,18 @@ h1 {
 /* 3. Definimos qué palabra va en cada uno usando HOVER */
 .foto1 a:hover::after {
   content: "FRANCÉS"; /* Aquí pones la palabra que quieras */
+  padding: 15px;
   opacity: 1;
 }
 
 .foto2 a:hover::after {
   content: "INGLÉS";
+  padding: 15px;
   opacity: 1;
 }
 
 .foto3 a:hover::after {
   content: "CONSULTA";
+  padding: 15px;
   opacity: 1;
 }
