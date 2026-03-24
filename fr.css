@@ -25,6 +25,14 @@ body {
     background-color: #369681;
     color: white;
   }
+
+  .iframe iframe {
+      width: 875px;
+      height: 400px;
+      display: block;
+   }
+
+
 @media (max-width: 750px) {
    #main-container {
     display: flex;
@@ -37,12 +45,18 @@ body {
     .iframe{
         justify-content: center;
         align-items: center;
-        height:300px;
-        width:100%;
+        height:400px;
+        width:95%;
         frameborder:0; 
         padding: 20px;
         overflow-x: auto;
 }
+
+   .iframe iframe{
+      width: 875px;
+      height: 100%
+   }
+ 
     h3{
         font-size: 20px;
         text-align: center;
