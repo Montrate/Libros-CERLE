@@ -1,52 +1,29 @@
-h1 {
-    font-family: "Geologica", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 60px;
-    font-style: normal;
-    font-variation-settings:
-      "slnt" 0,
-      "CRSV" 0,
-      "SHRP" 0;
-    display: flex;
-    justify-content: center; 
-    background-color: #B9E5E8;
-  }
-
-  body {
-    background-color: #DFF2EB
-  }
-
-.contenedor{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center; 
-    align-items: center;
-    gap: 4px;
-  
-}
-.button {
-  border-radius: 10px;
-    width: auto;
-    height: auto;
-    padding: 10px;
+/* Centrado de los botones de banderas */
+.contenedor {
+    display: flex;            /* Alinea los hijos en línea */
+    justify-content: center;   /* Los centra horizontalmente */
+    gap: 40px;                /* Espacio exacto e igual entre los dos */
+    margin-top: 30px;         /* Separación del título superior */
+    flex-wrap: wrap;          /* Si la pantalla es chica, se ponen uno abajo del otro */
 }
 
-.foto1 {
-    width: 100%;
-    height: auto;
+/* Estilo para quitar el borde feo de los botones y que luzcan limpios */
+.contenedor button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: transform 0.3s ease; /* Efecto suave al pasar el mouse */
 }
 
-.foto2 {
-    width: 100%;
-    height: auto;
-
+/* Efecto visual al pasar el mouse (opcional, pero queda muy bien) */
+.contenedor button:hover {
+    transform: scale(1.05);
 }
 
-@media (max-width: 725px) {
-    .contenedor {
-      flex-direction: column;
-        gap: 20px;
-        
-    }
+/* Ajuste de las imágenes para que no se deformen */
+.contenedor img {
+    border-radius: 15px;      /* Bordes redondeados para que hagan juego con tu diseño */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Una sombra sutil para dar profundidad */
+    object-fit: cover;
 }
