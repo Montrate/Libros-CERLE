@@ -26,13 +26,6 @@ body {
     color: white;
   }
 
-  .iframe iframe {
-      width: 875px;
-      height: 400px;
-      display: block;
-   }
-
-
 @media (max-width: 750px) {
    #main-container {
     display: flex;
