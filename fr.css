@@ -25,6 +25,13 @@ body {
     background-color: #369681;
     color: white;
   }
+ h3{
+        font-size: 20px;
+        text-align: center;
+          background-color: #F3F3E0;
+    font-family: "Overpass", sans-serif;
+    color: #608BC1;
+        }
 @media (max-width: 750px) {
    #main-container {
     display: flex;
