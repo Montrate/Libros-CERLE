@@ -1,3 +1,20 @@
+h1 {
+    font-family: "Geologica", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 60px;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "CRSV" 0,
+      "SHRP" 0;
+    display: flex;
+    justify-content: center; 
+    background-color: #B9E5E8;
+  }
+
+  body {
+    background-color: #DFF2EB
+  }
 /* Centrado de los botones de banderas */
 .contenedor {
     display: flex;            /* Alinea los hijos en línea */
