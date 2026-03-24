@@ -82,7 +82,7 @@ h1 {
   font-weight: bold;
   font-size: 20px;
   opacity: 0; /* Invisible */
-  transition: opacity 0.3s ease;
+  transition: opacity 0.9s ease;
 }
 
 /* 3. Definimos qué palabra va en cada uno usando HOVER */
